@@ -21,4 +21,4 @@ def number_fact():
     fact = get_fact_for_number(random_number)
 
     return render_template("number-fact.html", number=random_number, fact=fact)
-//we vill test it and replace new one
+
